@@ -1,0 +1,14 @@
+etrade-cli is an independent Go implementation of a client for the
+E*TRADE Developer Platform REST API v1:
+
+    E*TRADE Developer Platform — https://developer.etrade.com
+    pyetrade (endpoint surface reference) — https://github.com/jessecooper/pyetrade
+    Copyright (c) Jesse Cooper and the pyetrade contributors
+    Licensed under the MIT License
+
+The endpoint paths, parameter names, and OAuth 1.0a flow implemented here
+follow the official E*TRADE API documentation and were cross-checked
+against pyetrade. The Go implementation in this repository is an
+independent re-implementation written for this project; it is not
+affiliated with or endorsed by E*TRADE (Morgan Stanley), the pyetrade
+project, or Charles Schwab & Co., Inc.

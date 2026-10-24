@@ -1,0 +1,19 @@
+# Binaries
+/etrade-cli
+*.exe
+
+# Token files and credentials — never commit these
+token.json
+token.sandbox.json
+*.token.json
+etrade-token*.json
+.etrade-cli.json
+
+# Local tooling output
+/dist/
+coverage.out
+
+# Editor / OS noise
+.idea/
+.vscode/
+.DS_Store
